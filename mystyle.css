@@ -1,5 +1,6 @@
 body {
 		font-family: 				Verdana, Helvetica, sans-serif;
+		font-size: 					small;
 		background-color: 	#ffffff;
 		}
 
@@ -20,11 +21,7 @@ body {
 		}
 
 .textSize {
-		border: 						1px solid black;
-		}
-
-.textSize:hover {
-		cursor:							pointer
+		text-decoration:   	underline;
 		}
 
 p {

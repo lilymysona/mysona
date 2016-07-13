@@ -26,9 +26,9 @@ function setIconBorder(elemID) {
 	(Cookies.get("fontSize") ? Cookies.get("fontSize") + "Styler" : "mediumStyler")
 	var iconIDs = ["smallStyler", "mediumStyler", "largeStyler"]
 	for (var i = 0; i <iconIDs.length; i++) {
-		document.getElementById(iconIDs[i]).style.borderColor = "black";
+		document.getElementById(iconIDs[i]).style.color = "black";
 	}
-	document.getElementById(elemID).style.borderColor = "red";
+	document.getElementById(elemID).style.color = "red";
 }
 
 function setEvents( ) {
